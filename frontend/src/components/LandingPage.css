@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #da9d75;
+    color: white;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.join-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.join-button:hover {
+    background-color: #ff5500;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#team .team-member {
+    margin: 40px;
+}
+
+.team-icon {
+    font-size: 3rem;
+    color: #ff6600;
+}
+
+.team-member h3 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 1rem;
+}
+
+.contact-tech-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-tech-button:hover {
+    background-color: #ff5500;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Remove bullets from lists */
+nav ul {
+    list-style-type: none; /* This removes the bullets */
+    display: flex;
+    gap: 15px;
+    padding: 0; /* Ensure no extra space */
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove bullets from any unordered list on the page */
+ul {
+    list-style-type: none;
+    padding-left: 0; /* Remove any default padding */
+}
+
+
+.video-container {
+    width: 50%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed the container's width */
+    display: block; /* Video as a block element */
+    margin: 0 auto; /* Centers the video horizontally */
+}
+
+
