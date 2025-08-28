@@ -1,6 +1,7 @@
 import React from 'react';
 import './LandingPage.css'; // CSS file import
 import { FaUserTie, FaUserSecret, FaUserNinja, FaUserAstronaut } from 'react-icons/fa'; // Added FaUserAstronaut icon
+import Footer from './footer';
 
 const LandingPage = () => {
     const handleJoinUs = () => {
@@ -79,12 +80,12 @@ const LandingPage = () => {
                     <p>COO</p>
                     <p>Lubabalo, also known as the 'Fintech Ninja,' ensures PaySignal operates like a well-oiled machine. He is a master of efficiency and is rumored to solve puzzles faster than most people can open a spreadsheet.</p>
                 </div>
-                <div className="team-member">
+                {/* <div className="team-member">
                     <FaUserNinja className="team-icon" />
                     <h3>Zacharia Maetlane</h3>
                     <p>CMO</p>
                     <p>Zachary, our marketing maestro, is the creative mind behind PaySignal's brand. He turns ideas into campaigns faster than you can say 'viral.' He's also known for his quirky hat collection!</p>
-                </div>
+                </div> */}
                 <div className="team-member">
                     <FaUserAstronaut className="team-icon" /> {/* Feminine icon */}
                     <h3>Zuri Ngqwaru</h3>
@@ -105,14 +106,17 @@ const LandingPage = () => {
 
             <section id="contact" className="contact">
                 <h2>Contact Us</h2>
-                <p>Email: admin@paysignal.com</p>
+                <p>Email: admin@paysignal.net</p>
                 
                 <button className="contact-tech-button" onClick={handleContactTechTeam}>Contact Our Tech Team</button>
             </section>
 
-            <footer>
+            {/* <footer>
+                
                 <p>&copy; 2024 PaySignal. All rights reserved.</p>
-            </footer>
+
+            </footer> */}
+            <Footer/>
         </div>
     );
 };
