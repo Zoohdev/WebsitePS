@@ -40,10 +40,7 @@ const LandingPage = () => {
                     transactions, empowering individuals and businesses alike to navigate the digital economy with ease.
                 </p>
                 <p>
-                    Our platform allows users to send and receive money, make prepaid purchases, handle sports betting payments, and 
-                    access AI-powered financial tools, all through a single, intuitive interface. We are committed to delivering solutions 
-                    that are not only technologically advanced but also user-friendly, ensuring that anyone, anywhere, can participate 
-                    in the financial ecosystem.
+                Our application facilitates local and cross-border financial transactions, handling payments in numerous currencies. It encompasses the use of both local and international virtual cards, mobile wallets and bank transfers. We specialise in remittance and currency exchange.
                 </p>
                 <p>
                     At PaySignal, we are constantly pushing the boundaries of what's possible in fintech, combining data-driven insights 

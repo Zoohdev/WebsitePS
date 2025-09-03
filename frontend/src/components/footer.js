@@ -157,7 +157,7 @@ const Footer = () => {
 
                 <h4>1.7. Governing Law</h4>
                 <p>
-                These Terms are governed by the laws of <em>[Insert Country of Incorporation]</em>.
+                These Terms are governed by the laws of <em>[South Africa(ZA)]</em>.
                 </p>
             </>
             )}
